@@ -1,0 +1,57 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poor Story', cursive;
+    font-family: 'Teko', sans-serif;
+    /* background-color: black;
+    color: white; */
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 0.3rem;
+    padding-bottom: 2%;
+}
+
+#clockContainer{
+   background: url("clock.png");
+   background-repeat: no-repeat ;
+   height: 35vw;
+   width: 35vw; 
+   background-size: 100%;
+   margin: auto;
+   position: relative;
+}
+
+#hr, #min, #sec {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+
+#hr {
+    width: 1.8%;
+    height: 22%;
+    top: 28%;
+    left: 48.85%;
+    transform-origin: bottom;
+    /* display: none; */
+}
+
+#min {
+    width: 1.6%;
+    height: 30%;
+    top: 20%;
+    left: 49%;
+    transform-origin: bottom;
+    /* display: none; */
+}
+
+#sec {
+    width: 1%;
+    height: 39%;
+    top: 11%;
+    left: 49.4%;
+    transform-origin: bottom;
+    /* display: none; */
+}
+
